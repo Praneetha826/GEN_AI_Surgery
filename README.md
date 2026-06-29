@@ -13,8 +13,7 @@ GEN-AI Surgery is an AI-based system designed for **holistic surgical scene unde
 ---
 
 ## Architecture Diagram
-*(Add your architecture diagram here)*
-`![Architecture Diagram](images/Architecture.png)`
+![Architecture Diagram](images/Architecture.png)
 
 ---
 
@@ -75,7 +74,6 @@ GEN-AI Surgery is an AI-based system designed for **holistic surgical scene unde
 ### 1. Mask2Former — Instrument Segmentation
 - A transformer-based model for panoptic, instance, and semantic segmentation.
 - Uses **multi-scale attention** and **deformable attention** to capture both global context and fine-grained instrument edges.
-- Trained on 3,449 labeled frames (2,324 train / 1,125 test) with per-instrument binary masks.
 
 ✅ **Strengths:**
 - Handles multiple overlapping instruments simultaneously.
@@ -245,8 +243,3 @@ curl -X POST http://localhost:5000/api/analyze \
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
-
----
-
-> Built by the GEN-AI Surgery Team · B.Tech CSE, KMIT · [Praneetha's LinkedIn](https://linkedin.com/in/praneetha-palakurla)
-````
