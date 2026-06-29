@@ -1,4 +1,3 @@
-````markdown
 # GEN-AI Surgery 🔬🤖
 
 ### Project Purpose
